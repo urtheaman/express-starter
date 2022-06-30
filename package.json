@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "start": "node index.js",
+    "build": "tsc index.ts",
+    "deploy": "gcloud preview app deploy"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "typescript": "^4.6.3"
+  }
+}
